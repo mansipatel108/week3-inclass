@@ -13,5 +13,14 @@ namespace week3
         {
 
         }
+
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
+        protected void CancelButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
     }
 }
