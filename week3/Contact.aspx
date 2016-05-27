@@ -28,7 +28,7 @@
                 <div class="form-group">
                     <label class="control-label" for="FirstNameTextBox">FirstName: </label>
                     <asp:TextBox runat="server" CssClass="form-control" ID="FirstNameTextBox" placeholder="First Name" required="true"></asp:TextBox>
-                    <asp:RequiredFieldValidator CssClass="alert-danger" ID="RequiredFieldValidator1" runat="server" ErrorMessage="First Name is Require!" SetFocusOnError="true" ControlToValidate="FirstNameTextBox"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator CssClass="alert-danger" Display="Dynamic" ID="RequiredFieldValidator1" runat="server" ErrorMessage="First Name is Require!" SetFocusOnError="true" ControlToValidate="FirstNameTextBox"></asp:RequiredFieldValidator>
                 </div>
                 <div class="form-group">
                     <label class="control-label" for="LastNameTextBox">LastName: </label>

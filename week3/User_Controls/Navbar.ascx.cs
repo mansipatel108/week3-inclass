@@ -18,7 +18,7 @@ namespace week3
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            addActiveClass();
+            SetActivePage();
         }
         /** 
          * THis method adds a css class of "active" to list items related
@@ -27,7 +27,7 @@ namespace week3
          * @method SetActivePage
          * @return  {void}
          * */
-        private string addActiveClass()
+        private string SetActivePage()
         {
             switch (Page.Title)
             {
